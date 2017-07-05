@@ -9,6 +9,7 @@ console.log (array[10]); // affiche novembre
 array[7] = "août";
 console.log (array[7]);
 
-for (var index = 0; index < array.length; index++) {
+var arrayLength = array.length;
+for (var index = 0; index < arrayLength; index++) {
 	console.log (array[index]);
 };
