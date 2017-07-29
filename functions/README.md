@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Les fonctions
 
 ##Exercice 1
@@ -38,9 +37,3 @@ Gérer tous les cas.
 
 ##Exercice 8
 Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres.  
-=======
-#JS-exercice
-
-* Forkez le repo !
-* Des que vous validé une étape, ajoutez le et commitez le.
->>>>>>> 7134ea2c3782c4a10133918f9f286f062bac47f2
