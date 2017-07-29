@@ -29,4 +29,24 @@ function nomPrenomAge(nom, prenom, age) {
 }
 console.log(nomPrenomAge("Tiramani", "Jeanne", 39));
 
+//exercice 6
+function ageGenre(age, genre) {
+	if (genre === "homme") {
+		if (age <= 18) {
+			return "Vous êtes un homme et vous êtes mineur";
+		} 
+		return "Vous êtes un homme et vous êtes majeur";
+
+	} else  if (genre === "femme") {
+
+		if (age <= 18) {
+			return "Vous êtes une femme et vous êtes mineure";
+		} 
+			return "Vous êtes une femme et vous êtes majeure";
+
+	}	
+
+	}
+
+console.log(ageGenre(39, "femme"))
 
