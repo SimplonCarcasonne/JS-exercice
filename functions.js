@@ -22,3 +22,11 @@ function compar (nombre1, nombre2) {
 }
 
 console.log(compar(3, 4));
+
+//exercice 5
+function nomPrenomAge(nom, prenom, age) {
+	return "Bonjour " + prenom + " " + nom + ", tu as " + age + " ans.";
+}
+console.log(nomPrenomAge("Tiramani", "Jeanne", 39));
+
+
