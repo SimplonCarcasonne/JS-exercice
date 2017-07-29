@@ -23,13 +23,13 @@ function compar (nombre1, nombre2) {
 
 console.log(compar(3, 4));
 
-//exercice 5
+//exercice 6
 function nomPrenomAge(nom, prenom, age) {
 	return "Bonjour " + prenom + " " + nom + ", tu as " + age + " ans.";
 }
 console.log(nomPrenomAge("Tiramani", "Jeanne", 39));
 
-//exercice 6
+//exercice 7
 function ageGenre(age, genre) {
 	if (genre === "homme") {
 		if (age <= 18) {
@@ -50,3 +50,10 @@ function ageGenre(age, genre) {
 
 console.log(ageGenre(39, "femme"))
 
+//exercice 8
+function troisNombres(nombre1, nombre2, nombre3) {
+	var concat = nombre1 + nombre2 + nombre3;
+	return concat;
+}
+
+console.log(troisNombres(10, 5, 2));
