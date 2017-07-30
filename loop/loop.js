@@ -31,5 +31,11 @@ for(i = 1; i <= 15; i++) {
 
 //exercice 6
 for(i = 20; i >= 0;i--) {
-	console.log("C'est presque bon.")
+	console.log("C'est presque bon.");
 }
+
+//exercice 7
+for(i = 1; i <= 100; i += 15) {
+	console.log("On tient le bon bout.");
+}
+
