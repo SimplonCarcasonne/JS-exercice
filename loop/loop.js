@@ -39,3 +39,7 @@ for(i = 1; i <= 100; i += 15) {
 	console.log("On tient le bon bout.");
 }
 
+//exercice 8 FINAL
+for(i = 200; i > 0; i -= 12) {
+	console.log("Enfin !!!!");
+}
