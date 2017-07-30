@@ -23,3 +23,8 @@ for(nb1 = 100; nb1 > 10; nb1--) {
 for(var i = 1; i < 10; i+= 0.5*i) {
 	console.log(i);
 }
+
+//exercice 5
+for(i = 1; i <= 15; i++) {
+	console.log("on y arrive presque");
+}
