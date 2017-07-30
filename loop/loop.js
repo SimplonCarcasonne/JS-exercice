@@ -19,3 +19,7 @@ for(nb1 = 100; nb1 > 10; nb1--) {
 	console.log(resultat);
 }
 
+//exercice 4 
+for(var i = 1; i < 10; i+= 0.5*i) {
+	console.log(i);
+}
