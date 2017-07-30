@@ -28,3 +28,8 @@ for(var i = 1; i < 10; i+= 0.5*i) {
 for(i = 1; i <= 15; i++) {
 	console.log("on y arrive presque");
 }
+
+//exercice 6
+for(i = 20; i >= 0;i--) {
+	console.log("C'est presque bon.")
+}
